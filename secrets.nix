@@ -7,5 +7,5 @@ let
   systems = [ wsl ];
 in
 {
-  "./cloudflared.age".publicKeys = systems;
+  "./cloudflared-miemie.json.age".publicKeys = systems;
 }
