@@ -4,8 +4,15 @@ let
   # If you do not have this file, you can generate all the host keys by command:
   #    sudo ssh-keygen -A
   wsl = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDUmKHI3210erAXq5h8oG7c3NOsXvxpnMNbElG3Hp/yx root@wsl";
-  systems = [ wsl ];
-in
-{
+  # miemie = "";
+
+  recovery_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIRrymJExf8Z+IJ8nf9qvGWAbIAdD/nsR8OoDQ9dH3F8 hmy01@HMY-SPIN5";
+  systems = [
+    wsl
+    # miemie
+
+    recovery_key
+  ];
+in {
   "./cloudflared-miemie.json.age".publicKeys = systems;
 }
