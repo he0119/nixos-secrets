@@ -4,12 +4,12 @@ let
   # If you do not have this file, you can generate all the host keys by command:
   #    sudo ssh-keygen -A
   wsl = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDUmKHI3210erAXq5h8oG7c3NOsXvxpnMNbElG3Hp/yx root@wsl";
-  # miemie = "";
+  miemie = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJzd9kDPZholuCKXVnOv8ouLryYL4P0L3ioClJTvTLtF root@miemie";
 
   recovery_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIRrymJExf8Z+IJ8nf9qvGWAbIAdD/nsR8OoDQ9dH3F8 hmy01@HMY-SPIN5";
   systems = [
     wsl
-    # miemie
+    miemie
 
     recovery_key
   ];
