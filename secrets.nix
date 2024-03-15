@@ -14,5 +14,6 @@ let
     recovery_key
   ];
 in {
-  "./cloudflared-miemie.json.age".publicKeys = systems;
+  "./cloudflared/miemie.json.age".publicKeys = systems;
+  "./wakatime.cfg.age".publicKeys = systems;
 }
