@@ -6,7 +6,7 @@ let
   mini = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDUmKHI3210erAXq5h8oG7c3NOsXvxpnMNbElG3Hp/yx root@mini";
   spin5 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINnksN9nCYFDVlvwfSW0U3yRSkwugxdlQSwyM9H1jV/+ root@spin5";
 
-  work-305 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBbVqEmQSBg+xt0bgsj+/mI7YzS26vJio8QVxfYodxQB root@work-305";
+  work-305 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICyHS05r6Oh5pH8W6dMeFDMQtO7/UBf0bYy1Irb9NWiV root@work-305";
 
   miemie = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJzd9kDPZholuCKXVnOv8ouLryYL4P0L3ioClJTvTLtF root@miemie";
 
