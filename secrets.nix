@@ -10,7 +10,8 @@ let
 
   miemie = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJzd9kDPZholuCKXVnOv8ouLryYL4P0L3ioClJTvTLtF root@miemie";
 
-  recovery_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIRrymJExf8Z+IJ8nf9qvGWAbIAdD/nsR8OoDQ9dH3F8 hmy01@HMY-SPIN5";
+  recovery_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDv+XNrly09JDFlXTTgJ1YoWmvHQMrt+Cumpg4AOCDY7 hmy01@HMY-UM790PRO
+";
   systems = [
     mini
     spin5
