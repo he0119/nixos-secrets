@@ -10,12 +10,11 @@ let
 
   miemie = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJzd9kDPZholuCKXVnOv8ouLryYL4P0L3ioClJTvTLtF root@miemie";
 
-  recovery_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDv+XNrly09JDFlXTTgJ1YoWmvHQMrt+Cumpg4AOCDY7 hmy01@HMY-UM790PRO
-";
+  recovery_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDv+XNrly09JDFlXTTgJ1YoWmvHQMrt+Cumpg4AOCDY7 hmy01@HMY-UM790PRO";
   systems = [
     mini
     spin5
-  
+
     work-305
 
     miemie
@@ -25,4 +24,5 @@ let
 in {
   "./cloudflared/miemie.json.age".publicKeys = systems;
   "./wakatime.cfg.age".publicKeys = systems;
+  "./gitea/runner-305.env.age".publicKeys = systems;
 }
