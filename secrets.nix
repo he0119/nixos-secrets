@@ -9,6 +9,7 @@ let
   work-305 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICyHS05r6Oh5pH8W6dMeFDMQtO7/UBf0bYy1Irb9NWiV root@work-305";
 
   miemie = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJzd9kDPZholuCKXVnOv8ouLryYL4P0L3ioClJTvTLtF root@miemie";
+  qri = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIINTuutM4ZNtfc/+qUuAlCYZGDSCK8vmo3MhIsE1bZyx root@qri";
 
   recovery_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDv+XNrly09JDFlXTTgJ1YoWmvHQMrt+Cumpg4AOCDY7 hmy01@HMY-UM790PRO";
   systems = [
@@ -18,6 +19,7 @@ let
     work-305
 
     miemie
+    qri
 
     recovery_key
   ];
